@@ -1,4 +1,6 @@
 # It-project-
+This is a web deveolopment project made to understand HTML 5 and CSS 3. Due date for completion is on January 28, 2022.
+
 Week 1 discussion
 
 Pages
