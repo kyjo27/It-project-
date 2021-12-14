@@ -9,8 +9,8 @@ Pages
 
 2 - about us 
 
-3 - games that they released
+3 - products
 
-4 - latest news 
+4 - orders
 
 5 - review section
