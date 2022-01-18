@@ -1,6 +1,46 @@
-p{
+/* main body */
+.main {
+	margin-top: 30px;
+}
+
+/* paragraph */
+p {
 	line-height:1.35em;
+	font-style:italic;
+}
+.pCenterLine {
 	text-align:center;
 	font-size:20px;
+}
+.pHeader {
+	font-size:40px;
+	text-align:center;
+}
+.pFooter {
+	font-size:15px;
+	text-align:center;
+}
+/* navigation */
+.navbar {
+	background-color: pink;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navbar p{
+	display: block;
+	line-height:1.35em;
 	font-style:italic;
+	float: left;
+	text-align: left;
+}
+.navbar a{
+	display: block;
+	float: left;
+	padding: 14px 16px;
+	font-size: 12;
+	line-height:1.35em;
+	text-align: center;
+	text-decoration: none;
 }
