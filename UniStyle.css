@@ -44,6 +44,7 @@ p {
 	text-align: center;
 	text-decoration: none;
 }
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *
 {
@@ -108,7 +109,7 @@ header .logo
   right: 300px;
 }
 
-.showcase video
+.showcase img
 {
   position: absolute;
   top: 0;
