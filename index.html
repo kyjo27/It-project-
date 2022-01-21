@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="UniStyle.css">
+  <title>Main Page | Riot Games</title>
+</head>
+<body>
+  <section class="showcase">
+    <!--Header Part-->
+    <header>
+      <a class="logo" href="index.html"><img src="https://i.ibb.co/RSTnnG1/RIOT-LOGO.png" alt="RIOT LOGO" border="0"></a>
+      <div class="toggle"></div>
+    </header>
+
+    <!--This video source isn't correctamongo-->
+    <video src="/Images Folder/VALOREANT.mp4" muted loop autoplay></video>
+    <!--Introduction Part-->
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>RIOT GAMES </h2> 
+      <h3>VALORANT</h3>
+      <p>It's a competitive character-based tactical shooter with precise gunplay that's set on a beautiful near-future Earth and has a lethal cast of characters, each with their unique abilities.</p>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Explore</a>
+    </div>
+    <!--Social stuff-->
+    <ul class="social">
+      <li><a href="https://www.facebook.com/RiotGames/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://twitter.com/riotgames?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/riotgames/?hl=en"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <!--Menu System-->
+  <div class="menu">
+    <ul>
+      <li><a href="games.html">Released Games</a></li>
+      <li><a href="news.html">Latest News</a></li>
+      <li><a href="review.html">Review Section</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </div>
+  <!--JavaScript-->
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+  </script>
+</body>
+</html>
+ 
+ 
