@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="homestyle.css">
+  <link rel="stylesheet" href="UniStyle.css">
   <title>Home Page | Riot Games</title>
 </head>
+
 <body>
   <!--Bootstrap-->
   <link rel="stylesheet1" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!--End of Bootstrap-->
+
   <section class="showcase">
     <!--Header Part-->
     <header>
@@ -22,16 +25,15 @@
     <video src="/Images Folder/RIOTGAMES.mp4" muted loop autoplay></video>
     <!--Introduction Part-->
     <div class="overlay"></div>
-    <div class="text">
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Explore</a>
-    </div>
+
     <!--Social stuff-->
     <ul class="social">
-      <li><a href="https://www.facebook.com/RiotGames/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-      <li><a href="https://twitter.com/riotgames?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-      <li><a href="https://www.instagram.com/riotgames/?hl=en"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+      <li><a href="https://www.facebook.com/RiotGames/" target="_blank"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://twitter.com/riotgames?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/riotgames/?hl=en" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
     </ul>
   </section>
+
   <!--Menu System-->
   <div class="menu">
     <ul>
@@ -43,26 +45,26 @@
       <li>-----------------------------</li>
         <li>Authors: <br> John Luc Cubos <br> Gabrielle Marie Creus Alfonso <br> Josh Bondoc <br> William Jet Camposano <br> Ezekiel Delos Reyes
         <li>-----------------------------</li>
-        All Rights Reserved   
+        All Rights Reserved
         <li>-----------------------------</li>
         <br>
     </ul>
   </div>
+
   <!--JavaScript-->
   <script>
     const menuToggle = document.querySelector('.toggle');
-const showcase = document.querySelector('.showcase');
+    const showcase = document.querySelector('.showcase');
 
-menuToggle.addEventListener('click', () => {
-  menuToggle.classList.toggle('active');
-  showcase.classList.toggle('active');
-})
+    menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+  })
   </script>
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
- 
- 
