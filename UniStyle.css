@@ -109,7 +109,7 @@ header .logo
   right: 300px;
 }
 
-.showcase img
+.showcase video
 {
   position: absolute;
   top: 0;
@@ -126,30 +126,14 @@ header .logo
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a9f4;
+  background: #525e63;
   mix-blend-mode: overlay;
 }
 .text
 {
+  top: 10cm;
   position: relative;
   z-index: 10;
-}
-
-.text h2
-{
-  font-size: 5em;
-  font-weight: 800;
-  color: #fff;
-  line-height: 1em;
-  text-transform: uppercase;
-}
-.text h3
-{
-  font-size: 4em;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1em;
-  text-transform: uppercase;
 }
 .text p
 {
@@ -202,6 +186,7 @@ header .logo
 {
   transform: scale(0.5) translateY(-15px);
 }
+
 .menu
 {
   position: absolute;
@@ -211,7 +196,7 @@ header .logo
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .menu ul
 {
@@ -229,8 +214,9 @@ header .logo
 }
 .menu ul li a:hover
 {
-  color: #03a9f4; 
+  color: #374044; 
 }
+
 
 @media (max-width: 991px)
 {
@@ -238,10 +224,6 @@ header .logo
   .showcase header
   {
     padding: 40px;
-  }
-  .text h2
-  {
-    font-size: 3em;
   }
   .text h3
   {
